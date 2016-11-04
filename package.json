@@ -1,0 +1,29 @@
+{
+  "name": "hermes.sso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "application.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "content-type": "^1.0.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "moment": "^2.15.1",
+    "mongoose": "^4.5.5",
+    "underscore": "^1.8.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  }
+}

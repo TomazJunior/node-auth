@@ -1,0 +1,19 @@
+{
+  "development" : {
+    "htpport": 3010,
+    "hostif": "localhost",
+    "static": "/client",
+    "secret":"node.auth.secret.shhhhh",
+    "app": {
+      "name": "node - auth - api",
+      "url": "http://localhost:3010"
+    },
+    "db":             {
+      "mongo":          {
+        "host"        : "localhost",
+        "database"    : "hermes_sso"
+      }
+    }
+  },
+  "prod" : { }
+}
